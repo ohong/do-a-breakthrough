@@ -18,11 +18,7 @@ npx skills add https://github.com/ohong/do-a-breakthrough
 ## Use
 
 ```text
-Use $do-a-breakthrough. I know nothing about math and have [8 hours] of unused
-ChatGPT or Codex usage to burn. Find an unsolved math problem with a realistic
-chance of yielding to AI. Keep working until you solve it or run out of time.
-Explain what you find in plain English. Check the result hard before calling it a
-breakthrough.
+Use $do-a-breakthrough to try to solve [a specific problem], find an unsolved problem in [number theory or another niche], or choose one for me.
 ```
 
 AI can produce convincing but false mathematics or mistake an old result for a
