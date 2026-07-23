@@ -1,5 +1,7 @@
 # Do a Breakthrough
 
+![Do a Breakthrough skill illustration](assets/do-a-breakthrough.png)
+
 `do-a-breakthrough` is an installable skill for using frontier language models as
 persistent mathematical research collaborators. It turns an open problem into a
 precise solution contract, keeps several incompatible approaches alive, and runs
