@@ -1,0 +1,4 @@
+interface:
+  display_name: "Do a Breakthrough"
+  short_description: "Run a rigorous long-horizon math research loop"
+  default_prompt: "Use $do-a-breakthrough to investigate this open mathematics problem with a precise solution contract, competing approaches, and adversarial verification."
