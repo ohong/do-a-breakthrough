@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "do-a-breakthrough": {
+      "source": "ohong/do-a-breakthrough",
+      "sourceType": "github",
+      "skillPath": "skills/do-a-breakthrough/SKILL.md",
+      "computedHash": "807e7363cc8fc39c5523643ba676f643e980de5a9c97cc1fc6a00b6e4fb14268"
+    },
     "no-ai-slop": {
       "source": "petergyang/no-ai-slop",
       "sourceType": "github",

@@ -2,12 +2,27 @@
 
 ![Do a Breakthrough skill illustration](assets/do-a-breakthrough.png)
 
-Turn the ChatGPT or Codex usage you were going to waste into shots at solving
-unsolved math problems.
+On July 22, 2026, [Dmitry Rybin](https://x.com/DmitryRybin1) posted a blunt
+[update on X](https://x.com/DmitryRybin1/status/2079904005652893709):
+“Dinitz-Garg-Goemans conjecture is false. This graph theory problem was open for
+~30 years.”
 
-You do not need to know math or how research works. Install the skill, paste one
-prompt, and leave it running. It finds a problem, keeps the model going when it
-gets stuck, checks the work, and explains the result in plain English.
+The counterexample came out of a chat with GPT-5.6 Pro. Rybin had started by
+asking it to “do a breakthrough” and find a structured counterexample. When the
+model stalled, he kept pushing for a complete, unconditional result.
+
+He pointed a strong model at a specific open problem, gave it time, and refused
+to accept partial progress. We may be underusing the models we already pay for.
+
+`do-a-breakthrough` turns that method into a reusable agent skill. It helps
+anyone choose a tractable open problem, define what would count as a complete
+proof or disproof, keep several research routes alive, attack weak lemmas, and
+audit any candidate result before calling it a breakthrough.
+
+You do not need a mathematical background. Install the skill, name a problem or
+an area that interests you, and let your ChatGPT, Claude, or coding agent work
+through the research loop. Spend the usage you were going to waste on a shot at
+something unsolved.
 
 ## Install
 
