@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "no-ai-slop": {
+      "source": "petergyang/no-ai-slop",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "b9bab492473aa618b7bdcf791dff84c377bb78e88bf85ece4e03fc8f5d84866b"
+    }
+  }
+}
