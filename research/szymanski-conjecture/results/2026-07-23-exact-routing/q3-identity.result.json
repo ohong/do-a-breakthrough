@@ -1,0 +1,52 @@
+{
+  "name": "q3-identity",
+  "dimension": 3,
+  "permutation": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "total_hamming_distance": 0,
+  "directed_arc_count": 24,
+  "shortest_only": false,
+  "status": "sat",
+  "elapsed_seconds": 1.958297798410058e-05,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "num allocs": 179956164,
+    "rlimit count": 210975,
+    "max memory": 26.14,
+    "memory": 17.26
+  },
+  "paths": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      4
+    ],
+    "5": [
+      5
+    ],
+    "6": [
+      6
+    ],
+    "7": [
+      7
+    ]
+  }
+}

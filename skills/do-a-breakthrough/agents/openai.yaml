@@ -1,4 +1,4 @@
 interface:
   display_name: "Do a Breakthrough"
-  short_description: "Run a rigorous long-horizon math research loop"
-  default_prompt: "Use $do-a-breakthrough to investigate this open mathematics problem with a precise solution contract, competing approaches, and adversarial verification."
+  short_description: "Find and audit open-problem proofs or counterexamples"
+  default_prompt: "Use $do-a-breakthrough to select or investigate a worthwhile open problem in mathematics or theoretical computer science. Lock the exact statement, prefer narrow seams and compact certificates, calibrate known cases, pursue and falsify competing mechanisms, quarantine unaudited claims, and return either an independently checked proof or counterexample package or an honest blocked handoff."

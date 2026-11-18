@@ -1,0 +1,58 @@
+{
+  "name": "q2-exhaustive-23",
+  "dimension": 2,
+  "permutation": [
+    3,
+    2,
+    1,
+    0
+  ],
+  "total_hamming_distance": 8,
+  "directed_arc_count": 8,
+  "shortest_only": false,
+  "status": "sat",
+  "elapsed_seconds": 0.0009097500005736947,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "decisions": 3,
+    "propagations": 32,
+    "binary propagations": 32,
+    "final checks": 1,
+    "added eqs": 64,
+    "mk clause": 16,
+    "mk clause binary": 64,
+    "del clause": 16,
+    "num checks": 1,
+    "mk bool var": 88,
+    "arith-make-feasible": 1,
+    "arith-max-columns": 4,
+    "pb propagations": 29,
+    "pb predicates": 56,
+    "num allocs": 168855291,
+    "rlimit count": 205191,
+    "max memory": 26.14,
+    "memory": 17.29
+  },
+  "paths": {
+    "0": [
+      0,
+      2,
+      3
+    ],
+    "1": [
+      1,
+      3,
+      2
+    ],
+    "2": [
+      2,
+      0,
+      1
+    ],
+    "3": [
+      3,
+      1,
+      0
+    ]
+  }
+}

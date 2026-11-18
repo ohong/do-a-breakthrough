@@ -1,0 +1,77 @@
+{
+  "name": "q3-high-distance-random-shortest",
+  "dimension": 3,
+  "permutation": [
+    7,
+    1,
+    2,
+    0,
+    3,
+    5,
+    6,
+    4
+  ],
+  "total_hamming_distance": 10,
+  "directed_arc_count": 24,
+  "shortest_only": true,
+  "status": "sat",
+  "elapsed_seconds": 0.001149624993558973,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "decisions": 9,
+    "propagations": 55,
+    "binary propagations": 55,
+    "final checks": 1,
+    "added eqs": 107,
+    "mk clause": 30,
+    "mk clause binary": 102,
+    "del clause": 30,
+    "num checks": 1,
+    "mk bool var": 139,
+    "arith-make-feasible": 1,
+    "arith-max-columns": 4,
+    "pb propagations": 32,
+    "pb predicates": 91,
+    "num allocs": 297585401,
+    "rlimit count": 415288,
+    "max memory": 26.14,
+    "memory": 17.38,
+    "time": 0.001
+  },
+  "paths": {
+    "0": [
+      0,
+      4,
+      5,
+      7
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3,
+      1,
+      0
+    ],
+    "4": [
+      4,
+      0,
+      1,
+      3
+    ],
+    "5": [
+      5
+    ],
+    "6": [
+      6
+    ],
+    "7": [
+      7,
+      5,
+      4
+    ]
+  }
+}

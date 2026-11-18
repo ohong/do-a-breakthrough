@@ -1,0 +1,54 @@
+{
+  "name": "q2-exhaustive-12",
+  "dimension": 2,
+  "permutation": [
+    2,
+    0,
+    1,
+    3
+  ],
+  "total_hamming_distance": 4,
+  "directed_arc_count": 8,
+  "shortest_only": false,
+  "status": "sat",
+  "elapsed_seconds": 0.0007096250192262232,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "decisions": 4,
+    "propagations": 27,
+    "binary propagations": 27,
+    "final checks": 1,
+    "added eqs": 48,
+    "mk clause": 12,
+    "mk clause binary": 48,
+    "del clause": 12,
+    "num checks": 1,
+    "mk bool var": 68,
+    "arith-make-feasible": 1,
+    "arith-max-columns": 4,
+    "pb propagations": 17,
+    "pb predicates": 44,
+    "num allocs": 46964910,
+    "rlimit count": 103084,
+    "max memory": 26.1,
+    "memory": 17.25
+  },
+  "paths": {
+    "0": [
+      0,
+      2
+    ],
+    "1": [
+      1,
+      0
+    ],
+    "2": [
+      2,
+      0,
+      1
+    ],
+    "3": [
+      3
+    ]
+  }
+}

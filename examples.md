@@ -120,6 +120,122 @@ leads until checked against primary sources.
   define what counts as a complete solution, and require adversarial
   self-critique.
 
+## Cycle Double Cover Conjecture
+
+- **Result:** A claimed proof that every bridgeless graph has a cycle double
+  cover.
+- **Primary LLM:** **GPT-5.6 Sol** with **Ultra** reasoning effort.
+- **Evidence:** OpenAI published the model-generated proof and the prompt used to
+  produce it. A later exposition by Sang-il Oum reconstructs the argument.
+- **Sources:** [OpenAI proof.](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf)
+  [Oum's exposition.](https://sangil.dimag.kr/2026/cdc/)
+- **Notes:** This addresses a central structural graph-theory conjecture from
+  the 1970s. The exposition is encouraging evidence, but expert uptake and
+  scrutiny will determine its lasting influence.
+
+## Erdős planar unit-distance conjecture
+
+- **Result:** A counterexample to Erdős's conjectured upper bound for the number
+  of unit-distance pairs in a planar point set.
+- **Primary LLM:** An unreleased **OpenAI reasoning model**.
+- **Evidence:** OpenAI published the generated proof, and nine mathematicians
+  subsequently wrote a shorter, human-verified account of the construction.
+- **Sources:** [OpenAI's announcement.](https://openai.com/index/model-disproves-discrete-geometry-conjecture/)
+  [Human-verified account.](https://arxiv.org/abs/2605.20695)
+- **Notes:** This overturns a belief dating to 1946 and unexpectedly connects
+  discrete geometry with algebraic number theory.
+
+## Erdős problem 1051
+
+- **Result:** A proof of the irrationality claim for rapidly growing integer
+  sequences.
+- **Primary AI agent:** **Aletheia**, powered by **Gemini Deep Think**.
+- **Evidence:** Google DeepMind reports that Aletheia solved the problem
+  autonomously; the Erdős Problems database records the affirmative solution
+  and a Lean formalization.
+- **Sources:** [Google DeepMind's research report.](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+  [Erdős problem 1051.](https://www.erdosproblems.com/1051)
+- **Notes:** Later work generalized the result substantially. DeepMind classifies
+  the original solution as a modest but nontrivial autonomous research result.
+
+## Erdős problem 728
+
+- **Result:** A proof of the intended nontrivial factorial-divisibility
+  formulation of the problem.
+- **Primary LLM:** **GPT-5.2 Pro**; **Aristotle** formalized and repaired the
+  proof in Lean.
+- **Evidence:** Kevin Barreto gives a detailed first-person account of the
+  prompting, ambiguity in the original statement, literature search, and
+  formalization.
+- **Source:** [“Problem 728 and the use of AI on Erdős problems.”](https://www.erdosproblems.com/forum/thread/blog%3A2)
+- **Notes:** The result is specialized and depends on a clarified interpretation,
+  but it became an early credited example of an LLM producing a novel solution
+  to an Erdős problem.
+
+## Anderson's quasi-complete local-ring problem
+
+- **Result:** A counterexample: a weakly quasi-complete Noetherian local ring
+  that is not quasi-complete.
+- **Primary AI agents:** **Rethlas** found the construction and **Archon**
+  generated its Lean formalization.
+- **Evidence:** The project paper describes the autonomous search and formal
+  verification; the public repository contains the approximately 20,000-line
+  Lean development.
+- **Sources:** [Project paper.](https://arxiv.org/abs/2604.03789)
+  [Lean formalization.](https://github.com/frenzymath/Anderson-Conjecture)
+- **Notes:** The theorem is a genuine commutative-algebra result, while the large
+  formalization may be at least as important as a demonstration of method.
+
+## Erdős problem 652
+
+- **Result:** A proof that the constants governing the \(k\)-th smallest number
+  of distinct distances tend to infinity with \(k\).
+- **Primary AI agent:** **Aletheia**, powered by **Gemini Deep Think**.
+- **Evidence:** Google DeepMind lists problem 652 among Aletheia's autonomous
+  results, and the Erdős Problems database records the problem as proved.
+- **Sources:** [Google DeepMind's research report.](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+  [Erdős problem 652.](https://www.erdosproblems.com/652)
+- **Notes:** The closing argument follows quickly from an existing incidence
+  theorem, so it resolves the listed problem without introducing a comparably
+  broad new theorem.
+
+## Erdős problem 1196
+
+- **Result:** A proof of the 1968 primitive-set conjecture, including a sharp
+  asymptotic bound.
+- **Primary LLM:** **GPT-5.4 Pro**, prompted by Liam Price.
+- **Evidence:** The Erdős Problems record links the proof, subsequent
+  extensions, and a Lean formalization; its discussion preserves the
+  GPT-5.4 Pro provenance audit.
+- **Sources:** [Erdős problem 1196.](https://www.erdosproblems.com/1196)
+  [Provenance discussion.](https://www.erdosproblems.com/forum/thread/1196?order=oldest)
+- **Notes:** The result has been checked, extended by a group of mathematicians,
+  and formalized, although its broader influence is still being assessed.
+
+## Written on the Wall II Conjecture 91
+
+- **Result:** A reported counterexample to a computer-generated graph
+  conjecture posted in 2004.
+- **Primary LLM:** **ChatGPT-5.6 Pro**, according to a secondary report.
+- **Evidence:** The report says the model selected the conjecture from a supplied
+  list and returned a small exact witness.
+- **Source:** [Wissner-Gross's report.](https://theinnermostloop.substack.com/p/welcome-to-july-24-2026)
+- **Notes:** No primary discovery post or independent write-up was located. The
+  exact witness may make correctness easy to check, but the isolated conjecture
+  appears unlikely to have broad mathematical impact.
+
+## Alleged Röll conjecture
+
+- **Result:** A posted counterexample using the square of a spherical twist on a
+  projective K3 surface.
+- **Primary LLM:** **Claude Fable**, according to the announcement.
+- **Evidence:** The announcement says Fable supplied an autoequivalence acting
+  trivially on the Mukai lattice but not equal to an even shift.
+- **Source:** [Kevin's announcement account.](https://x.com/dj_d_sol)
+- **Notes:** The example is standard and predates the announcement, and no
+  credible provenance for a named open “Röll conjecture” was found. This should
+  be treated as a correction or rediscovery, not a new mathematical solution.
+
 ## Further leads to verify
 
 The supplied Grok summary also names the following cases but does not provide a
@@ -128,6 +244,4 @@ not as fully sourced examples:
 
 - A prover-verifier LLM harness announced by Omri Weinstein reportedly solved
   nine open problems in theoretical computer science.
-- Liam Price reportedly solved Erdős problem 1196 with a single GPT-5.4 Pro
-  prompt.
 - Adam Holter reportedly announced a batch of ten smaller conjecture results.

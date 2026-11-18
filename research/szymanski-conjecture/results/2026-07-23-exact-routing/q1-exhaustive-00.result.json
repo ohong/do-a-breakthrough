@@ -1,0 +1,28 @@
+{
+  "name": "q1-exhaustive-00",
+  "dimension": 1,
+  "permutation": [
+    0,
+    1
+  ],
+  "total_hamming_distance": 0,
+  "directed_arc_count": 2,
+  "shortest_only": false,
+  "status": "sat",
+  "elapsed_seconds": 8.233299013227224e-05,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "num allocs": 8451,
+    "rlimit count": 2,
+    "max memory": 17.09,
+    "memory": 17.09
+  },
+  "paths": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ]
+  }
+}

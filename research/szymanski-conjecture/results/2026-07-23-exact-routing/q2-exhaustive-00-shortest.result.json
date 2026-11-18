@@ -1,0 +1,36 @@
+{
+  "name": "q2-exhaustive-00-shortest",
+  "dimension": 2,
+  "permutation": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "total_hamming_distance": 0,
+  "directed_arc_count": 8,
+  "shortest_only": true,
+  "status": "sat",
+  "elapsed_seconds": 2.054200740531087e-05,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "num allocs": 536337,
+    "rlimit count": 848,
+    "max memory": 17.79,
+    "memory": 17.16
+  },
+  "paths": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ]
+  }
+}

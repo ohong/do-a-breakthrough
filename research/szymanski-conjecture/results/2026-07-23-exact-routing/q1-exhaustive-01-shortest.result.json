@@ -1,0 +1,32 @@
+{
+  "name": "q1-exhaustive-01-shortest",
+  "dimension": 1,
+  "permutation": [
+    1,
+    0
+  ],
+  "total_hamming_distance": 2,
+  "directed_arc_count": 2,
+  "shortest_only": true,
+  "status": "sat",
+  "elapsed_seconds": 0.0006653330055996776,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "solve-eqs-steps": 2,
+    "solve-eqs-elim-vars": 2,
+    "num allocs": 268439,
+    "rlimit count": 840,
+    "max memory": 17.79,
+    "memory": 17.74
+  },
+  "paths": {
+    "0": [
+      0,
+      1
+    ],
+    "1": [
+      1,
+      0
+    ]
+  }
+}

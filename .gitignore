@@ -1,3 +1,6 @@
 .agents/
 .claude/
 research/
+/output/
+/tmp/
+/temp/

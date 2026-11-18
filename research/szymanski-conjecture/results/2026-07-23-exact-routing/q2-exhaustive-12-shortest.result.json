@@ -1,0 +1,49 @@
+{
+  "name": "q2-exhaustive-12-shortest",
+  "dimension": 2,
+  "permutation": [
+    2,
+    0,
+    1,
+    3
+  ],
+  "total_hamming_distance": 4,
+  "directed_arc_count": 8,
+  "shortest_only": true,
+  "status": "sat",
+  "elapsed_seconds": 0.0012647080002352595,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "solve-eqs-steps": 20,
+    "solve-eqs-elim-vars": 20,
+    "sat mk clause 2ary": 16,
+    "sat mk var": 9,
+    "sat conflicts": 1,
+    "sat decisions": 3,
+    "sat propagations 2ary": 10,
+    "sat backjumps": 1,
+    "num allocs": 50043914,
+    "rlimit count": 106236,
+    "max memory": 26.1,
+    "memory": 17.9,
+    "time": 0.001
+  },
+  "paths": {
+    "0": [
+      0,
+      2
+    ],
+    "1": [
+      1,
+      0
+    ],
+    "2": [
+      2,
+      0,
+      1
+    ],
+    "3": [
+      3
+    ]
+  }
+}

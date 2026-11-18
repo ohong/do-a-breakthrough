@@ -1,0 +1,8 @@
+{
+  "checker": "audit_slack_six.py (stdlib only; no routing import)",
+  "q3_delta_six_population": 876,
+  "q3_cube_automorphism_orbits": 27,
+  "certificates_checked": 961,
+  "directed_arc_occurrences_checked": 22594,
+  "all_checks_passed": true
+}

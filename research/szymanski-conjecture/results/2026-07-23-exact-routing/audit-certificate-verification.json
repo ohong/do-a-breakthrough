@@ -1,0 +1,21 @@
+{
+  "all_checked_certificates_valid": true,
+  "checker": "independent_verify.py (stdlib JSON/cube validator; no routing import)",
+  "non_sat_records": [
+    {
+      "file": "q5-high-distance-random-a.result.json",
+      "status": "unknown"
+    },
+    {
+      "file": "q5-high-distance-random-a.retry-120s.result.json",
+      "status": "unknown"
+    }
+  ],
+  "result_files": 85,
+  "sat_certificates_checked_in_result_files": 83,
+  "sat_certificates_checked_in_summary": 83,
+  "status_counts": {
+    "sat": 83,
+    "unknown": 2
+  }
+}

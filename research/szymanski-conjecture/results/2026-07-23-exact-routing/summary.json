@@ -1,0 +1,7573 @@
+{
+  "z3_version": "4.15.4",
+  "timeout_seconds_per_instance": 20.0,
+  "planned_instances": 84,
+  "completed_instances": 84,
+  "unrestricted_unsat_found": false,
+  "status_counts": {
+    "sat": 83,
+    "unsat": 0,
+    "unknown": 1
+  },
+  "records": [
+    {
+      "name": "q1-exhaustive-00",
+      "dimension": 1,
+      "permutation": [
+        0,
+        1
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 2,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 8.233299013227224e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 8451,
+        "rlimit count": 2,
+        "max memory": 17.09,
+        "memory": 17.09
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ]
+      }
+    },
+    {
+      "name": "q1-exhaustive-00-shortest",
+      "dimension": 1,
+      "permutation": [
+        0,
+        1
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 2,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 3.258301876485348e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 27596,
+        "rlimit count": 4,
+        "max memory": 17.09,
+        "memory": 17.09
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ]
+      }
+    },
+    {
+      "name": "q1-exhaustive-01",
+      "dimension": 1,
+      "permutation": [
+        1,
+        0
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 2,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0008071250049397349,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 4,
+        "solve-eqs-elim-vars": 4,
+        "num allocs": 95502,
+        "rlimit count": 659,
+        "max memory": 17.79,
+        "memory": 17.79
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q1-exhaustive-01-shortest",
+      "dimension": 1,
+      "permutation": [
+        1,
+        0
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 2,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0006653330055996776,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 2,
+        "solve-eqs-elim-vars": 2,
+        "num allocs": 268439,
+        "rlimit count": 840,
+        "max memory": 17.79,
+        "memory": 17.74
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-00",
+      "dimension": 2,
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 2.4541979655623436e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 423100,
+        "rlimit count": 846,
+        "max memory": 17.79,
+        "memory": 17.16
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-00-shortest",
+      "dimension": 2,
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 2.054200740531087e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 536337,
+        "rlimit count": 848,
+        "max memory": 17.79,
+        "memory": 17.16
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-01",
+      "dimension": 2,
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0021302910172380507,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 12,
+        "solve-eqs-elim-vars": 12,
+        "sat mk clause 2ary": 163,
+        "sat mk clause nary": 48,
+        "sat mk var": 57,
+        "sat del clause": 6,
+        "sat conflicts": 1,
+        "sat decisions": 6,
+        "sat propagations 2ary": 69,
+        "sat propagations nary": 17,
+        "sat units": 4,
+        "sat backjumps": 1,
+        "sat elim clauses": 1,
+        "sat elim literals": 5,
+        "num allocs": 851148,
+        "rlimit count": 8235,
+        "max memory": 26.08,
+        "memory": 17.96,
+        "time": 0.002
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "3": [
+          3,
+          1,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-01-shortest",
+      "dimension": 2,
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0008756669703871012,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 16,
+        "solve-eqs-elim-vars": 16,
+        "num allocs": 1396965,
+        "rlimit count": 9967,
+        "max memory": 26.08,
+        "memory": 17.89
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-02",
+      "dimension": 2,
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0017638749559409916,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 12,
+        "solve-eqs-elim-vars": 12,
+        "sat mk clause 2ary": 164,
+        "sat mk clause nary": 50,
+        "sat mk var": 58,
+        "sat del clause": 3,
+        "sat conflicts": 2,
+        "sat decisions": 10,
+        "sat propagations 2ary": 75,
+        "sat propagations nary": 14,
+        "sat units": 3,
+        "sat backjumps": 2,
+        "sat elim literals": 3,
+        "num allocs": 2151252,
+        "rlimit count": 17449,
+        "max memory": 26.08,
+        "memory": 17.86,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-02-shortest",
+      "dimension": 2,
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0011648749932646751,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 8,
+        "solve-eqs-elim-vars": 8,
+        "sat mk clause 2ary": 32,
+        "sat mk var": 17,
+        "sat conflicts": 1,
+        "sat decisions": 9,
+        "sat propagations 2ary": 21,
+        "sat backjumps": 1,
+        "num allocs": 3052520,
+        "rlimit count": 20107,
+        "max memory": 26.08,
+        "memory": 17.87,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          3,
+          2
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-03",
+      "dimension": 2,
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0009263340034522116,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 4,
+        "propagations": 26,
+        "binary propagations": 26,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 18,
+        "pb predicates": 44,
+        "num allocs": 4071867,
+        "rlimit count": 24638,
+        "max memory": 26.08,
+        "memory": 17.23
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-03-shortest",
+      "dimension": 2,
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0019319580169394612,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 10,
+        "sat backjumps": 1,
+        "num allocs": 4956310,
+        "rlimit count": 27761,
+        "max memory": 26.08,
+        "memory": 17.88,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-04",
+      "dimension": 2,
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0007766250055283308,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 1,
+        "propagations": 26,
+        "binary propagations": 26,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 21,
+        "pb predicates": 44,
+        "num allocs": 6424221,
+        "rlimit count": 32263,
+        "max memory": 26.08,
+        "memory": 17.24
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3,
+          1,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-04-shortest",
+      "dimension": 2,
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0013205829891376197,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 10,
+        "sat backjumps": 1,
+        "num allocs": 7545422,
+        "rlimit count": 35394,
+        "max memory": 26.08,
+        "memory": 17.88,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-05",
+      "dimension": 2,
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0020570000051520765,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 12,
+        "solve-eqs-elim-vars": 12,
+        "sat mk clause 2ary": 159,
+        "sat mk clause nary": 47,
+        "sat mk var": 56,
+        "sat del clause": 4,
+        "sat conflicts": 2,
+        "sat decisions": 9,
+        "sat propagations 2ary": 74,
+        "sat propagations nary": 15,
+        "sat units": 3,
+        "sat backjumps": 2,
+        "sat elim clauses": 1,
+        "sat elim literals": 3,
+        "num allocs": 9348273,
+        "rlimit count": 42806,
+        "max memory": 26.1,
+        "memory": 17.88,
+        "time": 0.002
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          2,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-05-shortest",
+      "dimension": 2,
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0007695420063100755,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 16,
+        "solve-eqs-elim-vars": 16,
+        "num allocs": 11088127,
+        "rlimit count": 44547,
+        "max memory": 26.1,
+        "memory": 17.9
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-06",
+      "dimension": 2,
+      "permutation": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0017793329898267984,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 12,
+        "solve-eqs-elim-vars": 12,
+        "sat mk clause 2ary": 155,
+        "sat mk clause nary": 53,
+        "sat mk var": 56,
+        "sat del clause": 3,
+        "sat conflicts": 2,
+        "sat decisions": 10,
+        "sat propagations 2ary": 68,
+        "sat propagations nary": 15,
+        "sat units": 2,
+        "sat backjumps": 2,
+        "sat elim clauses": 2,
+        "sat elim literals": 1,
+        "num allocs": 13225030,
+        "rlimit count": 52003,
+        "max memory": 26.1,
+        "memory": 17.87,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-06-shortest",
+      "dimension": 2,
+      "permutation": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0007700829883106053,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 16,
+        "solve-eqs-elim-vars": 16,
+        "num allocs": 15259316,
+        "rlimit count": 53729,
+        "max memory": 26.1,
+        "memory": 17.9
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-07",
+      "dimension": 2,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0008697499870322645,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 1,
+        "decisions": 3,
+        "propagations": 34,
+        "binary propagations": 34,
+        "final checks": 1,
+        "added eqs": 67,
+        "mk clause": 17,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb resolves": 1,
+        "pb conflicts": 1,
+        "pb propagations": 32,
+        "pb predicates": 56,
+        "num allocs": 17753874,
+        "rlimit count": 59610,
+        "max memory": 26.1,
+        "memory": 17.26
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-07-shortest",
+      "dimension": 2,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0008073750068433583,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 32,
+        "solve-eqs-elim-vars": 32,
+        "num allocs": 19367361,
+        "rlimit count": 63225,
+        "max memory": 26.1,
+        "memory": 17.9
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-08",
+      "dimension": 2,
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0007423330098390579,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 4,
+        "propagations": 27,
+        "binary propagations": 27,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 17,
+        "pb predicates": 44,
+        "num allocs": 22233444,
+        "rlimit count": 67777,
+        "max memory": 26.1,
+        "memory": 17.25
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-08-shortest",
+      "dimension": 2,
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.001294290996156633,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 10,
+        "sat backjumps": 1,
+        "num allocs": 24306172,
+        "rlimit count": 70909,
+        "max memory": 26.1,
+        "memory": 17.89,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-09",
+      "dimension": 2,
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0007984170224517584,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 3,
+        "propagations": 35,
+        "binary propagations": 35,
+        "final checks": 1,
+        "added eqs": 64,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 26,
+        "pb predicates": 56,
+        "num allocs": 27532302,
+        "rlimit count": 76783,
+        "max memory": 26.1,
+        "memory": 17.25
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          3,
+          2
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-09-shortest",
+      "dimension": 2,
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0013139580260030925,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 24,
+        "solve-eqs-elim-vars": 24,
+        "sat mk clause 2ary": 34,
+        "sat mk var": 17,
+        "sat decisions": 2,
+        "sat propagations 2ary": 15,
+        "num allocs": 29868249,
+        "rlimit count": 81392,
+        "max memory": 26.1,
+        "memory": 17.89,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-10",
+      "dimension": 2,
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0008995420066639781,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 3,
+        "propagations": 34,
+        "binary propagations": 34,
+        "final checks": 1,
+        "added eqs": 64,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 27,
+        "pb predicates": 56,
+        "num allocs": 33492094,
+        "rlimit count": 87287,
+        "max memory": 26.1,
+        "memory": 17.26
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          1,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-10-shortest",
+      "dimension": 2,
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0009212500299327075,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 32,
+        "solve-eqs-elim-vars": 32,
+        "num allocs": 35783176,
+        "rlimit count": 90886,
+        "max memory": 26.1,
+        "memory": 17.9
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-11",
+      "dimension": 2,
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0006771670305170119,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 4,
+        "propagations": 27,
+        "binary propagations": 27,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 17,
+        "pb predicates": 44,
+        "num allocs": 39778669,
+        "rlimit count": 95432,
+        "max memory": 26.1,
+        "memory": 17.25
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-11-shortest",
+      "dimension": 2,
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0012366670416668057,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 9,
+        "sat backjumps": 1,
+        "num allocs": 42619353,
+        "rlimit count": 98550,
+        "max memory": 26.1,
+        "memory": 17.89,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-12",
+      "dimension": 2,
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0007096250192262232,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 4,
+        "propagations": 27,
+        "binary propagations": 27,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 17,
+        "pb predicates": 44,
+        "num allocs": 46964910,
+        "rlimit count": 103084,
+        "max memory": 26.1,
+        "memory": 17.25
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-12-shortest",
+      "dimension": 2,
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0012647080002352595,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 10,
+        "sat backjumps": 1,
+        "num allocs": 50043914,
+        "rlimit count": 106236,
+        "max memory": 26.1,
+        "memory": 17.9,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-13",
+      "dimension": 2,
+      "permutation": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0009308339795097709,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 5,
+        "propagations": 33,
+        "binary propagations": 33,
+        "final checks": 1,
+        "added eqs": 64,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 26,
+        "pb predicates": 56,
+        "num allocs": 54749901,
+        "rlimit count": 112147,
+        "max memory": 26.1,
+        "memory": 17.27
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-13-shortest",
+      "dimension": 2,
+      "permutation": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0008535420056432486,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 32,
+        "solve-eqs-elim-vars": 32,
+        "num allocs": 57690479,
+        "rlimit count": 115760,
+        "max memory": 26.1,
+        "memory": 17.91
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-14",
+      "dimension": 2,
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0016179169761016965,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 12,
+        "solve-eqs-elim-vars": 12,
+        "sat mk clause 2ary": 162,
+        "sat mk clause nary": 49,
+        "sat mk var": 57,
+        "sat del clause": 3,
+        "sat conflicts": 3,
+        "sat decisions": 9,
+        "sat propagations 2ary": 93,
+        "sat propagations nary": 11,
+        "sat units": 3,
+        "sat backjumps": 3,
+        "sat elim clauses": 2,
+        "sat elim literals": 2,
+        "num allocs": 62755240,
+        "rlimit count": 123210,
+        "max memory": 26.11,
+        "memory": 17.89,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-14-shortest",
+      "dimension": 2,
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "total_hamming_distance": 2,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0006939999875612557,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 16,
+        "solve-eqs-elim-vars": 16,
+        "num allocs": 67366134,
+        "rlimit count": 124949,
+        "max memory": 26.11,
+        "memory": 17.92
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-15",
+      "dimension": 2,
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0007384169730357826,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 2,
+        "propagations": 26,
+        "binary propagations": 26,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 20,
+        "pb predicates": 44,
+        "num allocs": 72779160,
+        "rlimit count": 129459,
+        "max memory": 26.11,
+        "memory": 17.26
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "3": [
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-15-shortest",
+      "dimension": 2,
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0013014170108363032,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 9,
+        "sat backjumps": 1,
+        "num allocs": 76583642,
+        "rlimit count": 132586,
+        "max memory": 26.11,
+        "memory": 17.91,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-16",
+      "dimension": 2,
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.000807875010650605,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 8,
+        "propagations": 35,
+        "binary propagations": 35,
+        "final checks": 1,
+        "added eqs": 64,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 21,
+        "pb predicates": 56,
+        "num allocs": 82356923,
+        "rlimit count": 138522,
+        "max memory": 26.11,
+        "memory": 17.28
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-16-shortest",
+      "dimension": 2,
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0007999169756658375,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 32,
+        "solve-eqs-elim-vars": 32,
+        "num allocs": 85938608,
+        "rlimit count": 142133,
+        "max memory": 26.11,
+        "memory": 17.92
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-17",
+      "dimension": 2,
+      "permutation": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0008167499909177423,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 2,
+        "propagations": 35,
+        "binary propagations": 35,
+        "final checks": 1,
+        "added eqs": 64,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 27,
+        "pb predicates": 56,
+        "num allocs": 92094944,
+        "rlimit count": 148007,
+        "max memory": 26.11,
+        "memory": 17.29
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-17-shortest",
+      "dimension": 2,
+      "permutation": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0013008330133743584,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 24,
+        "solve-eqs-elim-vars": 24,
+        "sat mk clause 2ary": 34,
+        "sat mk var": 17,
+        "sat decisions": 2,
+        "sat propagations 2ary": 15,
+        "num allocs": 96422618,
+        "rlimit count": 152631,
+        "max memory": 26.11,
+        "memory": 17.92,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          3
+        ],
+        "2": [
+          2,
+          3,
+          1
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-18",
+      "dimension": 2,
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.00102937500923872,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 1,
+        "decisions": 4,
+        "propagations": 37,
+        "binary propagations": 37,
+        "final checks": 1,
+        "added eqs": 81,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb propagations": 45,
+        "pb predicates": 56,
+        "num allocs": 102975790,
+        "rlimit count": 158555,
+        "max memory": 26.11,
+        "memory": 17.29,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          3,
+          1
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-18-shortest",
+      "dimension": 2,
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0013205420109443367,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 24,
+        "solve-eqs-elim-vars": 24,
+        "sat mk clause 2ary": 34,
+        "sat mk var": 17,
+        "sat decisions": 2,
+        "sat propagations 2ary": 15,
+        "num allocs": 107574415,
+        "rlimit count": 163189,
+        "max memory": 26.11,
+        "memory": 17.92,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2,
+          3,
+          1
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-19",
+      "dimension": 2,
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0007033750298433006,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 6,
+        "propagations": 27,
+        "binary propagations": 27,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 15,
+        "pb predicates": 44,
+        "num allocs": 114516538,
+        "rlimit count": 167760,
+        "max memory": 26.11,
+        "memory": 17.27
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-19-shortest",
+      "dimension": 2,
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0011700830073095858,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 10,
+        "sat backjumps": 1,
+        "num allocs": 119361637,
+        "rlimit count": 170912,
+        "max memory": 26.11,
+        "memory": 17.92,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          3
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-20",
+      "dimension": 2,
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0007275830139406025,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 2,
+        "propagations": 26,
+        "binary propagations": 26,
+        "final checks": 1,
+        "added eqs": 48,
+        "mk clause": 12,
+        "mk clause binary": 48,
+        "del clause": 12,
+        "num checks": 1,
+        "mk bool var": 68,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 20,
+        "pb predicates": 44,
+        "num allocs": 126654256,
+        "rlimit count": 175424,
+        "max memory": 26.11,
+        "memory": 17.28
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          1,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-20-shortest",
+      "dimension": 2,
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.001754416967742145,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 20,
+        "solve-eqs-elim-vars": 20,
+        "sat mk clause 2ary": 16,
+        "sat mk var": 9,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 9,
+        "sat backjumps": 1,
+        "num allocs": 131736418,
+        "rlimit count": 178564,
+        "max memory": 26.11,
+        "memory": 17.92,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          3
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-21",
+      "dimension": 2,
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.001633790961932391,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 12,
+        "solve-eqs-elim-vars": 12,
+        "sat mk clause 2ary": 170,
+        "sat mk clause nary": 52,
+        "sat mk var": 60,
+        "sat del clause": 5,
+        "sat conflicts": 2,
+        "sat decisions": 7,
+        "sat propagations 2ary": 73,
+        "sat propagations nary": 15,
+        "sat units": 5,
+        "sat backjumps": 2,
+        "sat elim literals": 5,
+        "num allocs": 139364888,
+        "rlimit count": 186062,
+        "max memory": 26.14,
+        "memory": 17.91,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-21-shortest",
+      "dimension": 2,
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "total_hamming_distance": 4,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0011081669945269823,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 8,
+        "solve-eqs-elim-vars": 8,
+        "sat mk clause 2ary": 32,
+        "sat mk var": 17,
+        "sat conflicts": 1,
+        "sat decisions": 9,
+        "sat propagations 2ary": 21,
+        "sat backjumps": 1,
+        "num allocs": 146865942,
+        "rlimit count": 188727,
+        "max memory": 26.14,
+        "memory": 17.92,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          3
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-22",
+      "dimension": 2,
+      "permutation": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0008287499658763409,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 6,
+        "propagations": 34,
+        "binary propagations": 34,
+        "final checks": 1,
+        "added eqs": 64,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 24,
+        "pb predicates": 56,
+        "num allocs": 154869023,
+        "rlimit count": 194639,
+        "max memory": 26.14,
+        "memory": 17.29
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-22-shortest",
+      "dimension": 2,
+      "permutation": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "total_hamming_distance": 6,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0012372499913908541,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 24,
+        "solve-eqs-elim-vars": 24,
+        "sat mk clause 2ary": 34,
+        "sat mk var": 17,
+        "sat decisions": 2,
+        "sat propagations 2ary": 15,
+        "num allocs": 160453774,
+        "rlimit count": 199302,
+        "max memory": 26.14,
+        "memory": 17.93,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          3
+        ],
+        "1": [
+          1,
+          3,
+          2
+        ],
+        "2": [
+          2,
+          0
+        ],
+        "3": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-23",
+      "dimension": 2,
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 8,
+      "directed_arc_count": 8,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0009097500005736947,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 3,
+        "propagations": 32,
+        "binary propagations": 32,
+        "final checks": 1,
+        "added eqs": 64,
+        "mk clause": 16,
+        "mk clause binary": 64,
+        "del clause": 16,
+        "num checks": 1,
+        "mk bool var": 88,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 29,
+        "pb predicates": 56,
+        "num allocs": 168855291,
+        "rlimit count": 205191,
+        "max memory": 26.14,
+        "memory": 17.29
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          3
+        ],
+        "1": [
+          1,
+          3,
+          2
+        ],
+        "2": [
+          2,
+          0,
+          1
+        ],
+        "3": [
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q2-exhaustive-23-shortest",
+      "dimension": 2,
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 8,
+      "directed_arc_count": 8,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.001369624980725348,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "solve-eqs-steps": 16,
+        "solve-eqs-elim-vars": 16,
+        "sat mk clause 2ary": 72,
+        "sat mk var": 33,
+        "sat conflicts": 1,
+        "sat decisions": 3,
+        "sat propagations 2ary": 33,
+        "sat backjumps": 1,
+        "num allocs": 174710934,
+        "rlimit count": 210941,
+        "max memory": 26.14,
+        "memory": 17.94,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3
+        ],
+        "1": [
+          1,
+          0,
+          2
+        ],
+        "2": [
+          2,
+          3,
+          1
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-identity",
+      "dimension": 3,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 24,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 1.958297798410058e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 179956164,
+        "rlimit count": 210975,
+        "max memory": 26.14,
+        "memory": 17.26
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          4
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7
+        ]
+      }
+    },
+    {
+      "name": "q3-identity-shortest",
+      "dimension": 3,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 24,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 1.875002635642886e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 182763825,
+        "rlimit count": 210977,
+        "max memory": 26.14,
+        "memory": 17.26
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          4
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7
+        ]
+      }
+    },
+    {
+      "name": "q3-antipodal",
+      "dimension": 3,
+      "permutation": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 24,
+      "directed_arc_count": 24,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.004215207998640835,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 23,
+        "propagations": 128,
+        "binary propagations": 128,
+        "final checks": 1,
+        "added eqs": 320,
+        "mk clause": 64,
+        "mk clause binary": 128,
+        "del clause": 64,
+        "num checks": 1,
+        "mk bool var": 536,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 169,
+        "pb predicates": 344,
+        "num allocs": 192504868,
+        "rlimit count": 238289,
+        "max memory": 26.14,
+        "memory": 17.47,
+        "time": 0.004
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "1": [
+          1,
+          5,
+          7,
+          6
+        ],
+        "2": [
+          2,
+          6,
+          4,
+          5
+        ],
+        "3": [
+          3,
+          7,
+          5,
+          4
+        ],
+        "4": [
+          4,
+          0,
+          2,
+          3
+        ],
+        "5": [
+          5,
+          1,
+          3,
+          2
+        ],
+        "6": [
+          6,
+          2,
+          0,
+          1
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-antipodal-shortest",
+      "dimension": 3,
+      "permutation": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 24,
+      "directed_arc_count": 24,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.002199250040575862,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 7,
+        "propagations": 112,
+        "binary propagations": 112,
+        "final checks": 1,
+        "added eqs": 224,
+        "mk clause": 64,
+        "mk clause binary": 176,
+        "del clause": 64,
+        "num checks": 1,
+        "mk bool var": 312,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 89,
+        "pb predicates": 216,
+        "num allocs": 201060747,
+        "rlimit count": 255440,
+        "max memory": 26.14,
+        "memory": 17.39,
+        "time": 0.002
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "1": [
+          1,
+          5,
+          7,
+          6
+        ],
+        "2": [
+          2,
+          6,
+          4,
+          5
+        ],
+        "3": [
+          3,
+          7,
+          5,
+          4
+        ],
+        "4": [
+          4,
+          0,
+          2,
+          3
+        ],
+        "5": [
+          5,
+          1,
+          3,
+          2
+        ],
+        "6": [
+          6,
+          2,
+          0,
+          1
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-antipodal-swap-01",
+      "dimension": 3,
+      "permutation": [
+        6,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 22,
+      "directed_arc_count": 24,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.004100041987840086,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 27,
+        "propagations": 128,
+        "binary propagations": 128,
+        "final checks": 1,
+        "added eqs": 320,
+        "mk clause": 64,
+        "mk clause binary": 128,
+        "del clause": 64,
+        "num checks": 1,
+        "mk bool var": 536,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 165,
+        "pb predicates": 344,
+        "num allocs": 212111005,
+        "rlimit count": 282977,
+        "max memory": 26.14,
+        "memory": 17.48,
+        "time": 0.004
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          6
+        ],
+        "1": [
+          1,
+          5,
+          7
+        ],
+        "2": [
+          2,
+          6,
+          4,
+          5
+        ],
+        "3": [
+          3,
+          7,
+          5,
+          4
+        ],
+        "4": [
+          4,
+          0,
+          2,
+          3
+        ],
+        "5": [
+          5,
+          1,
+          3,
+          2
+        ],
+        "6": [
+          6,
+          2,
+          0,
+          1
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-antipodal-swap-01-shortest",
+      "dimension": 3,
+      "permutation": [
+        6,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 22,
+      "directed_arc_count": 24,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0020437499624677002,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 7,
+        "propagations": 102,
+        "binary propagations": 102,
+        "final checks": 1,
+        "added eqs": 201,
+        "mk clause": 58,
+        "mk clause binary": 156,
+        "del clause": 58,
+        "num checks": 1,
+        "mk bool var": 294,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 75,
+        "pb predicates": 198,
+        "num allocs": 221584100,
+        "rlimit count": 300638,
+        "max memory": 26.14,
+        "memory": 17.46,
+        "time": 0.002
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          6
+        ],
+        "1": [
+          1,
+          5,
+          7
+        ],
+        "2": [
+          2,
+          6,
+          4,
+          5
+        ],
+        "3": [
+          3,
+          7,
+          5,
+          4
+        ],
+        "4": [
+          4,
+          0,
+          2,
+          3
+        ],
+        "5": [
+          5,
+          1,
+          3,
+          2
+        ],
+        "6": [
+          6,
+          2,
+          0,
+          1
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-antipodal-disjoint-swaps",
+      "dimension": 3,
+      "permutation": [
+        6,
+        7,
+        4,
+        5,
+        2,
+        3,
+        1,
+        0
+      ],
+      "total_hamming_distance": 18,
+      "directed_arc_count": 24,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.004125459003262222,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 33,
+        "propagations": 128,
+        "binary propagations": 128,
+        "final checks": 1,
+        "added eqs": 320,
+        "mk clause": 64,
+        "mk clause binary": 128,
+        "del clause": 64,
+        "num checks": 1,
+        "mk bool var": 536,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 159,
+        "pb predicates": 344,
+        "num allocs": 234305963,
+        "rlimit count": 328225,
+        "max memory": 26.14,
+        "memory": 17.49,
+        "time": 0.004
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          6
+        ],
+        "1": [
+          1,
+          5,
+          7
+        ],
+        "2": [
+          2,
+          3,
+          7,
+          5,
+          4
+        ],
+        "3": [
+          3,
+          2,
+          6,
+          4,
+          5
+        ],
+        "4": [
+          4,
+          0,
+          2
+        ],
+        "5": [
+          5,
+          1,
+          3
+        ],
+        "6": [
+          6,
+          2,
+          0,
+          1
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-antipodal-disjoint-swaps-shortest",
+      "dimension": 3,
+      "permutation": [
+        6,
+        7,
+        4,
+        5,
+        2,
+        3,
+        1,
+        0
+      ],
+      "total_hamming_distance": 18,
+      "directed_arc_count": 24,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.00203408399829641,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 4,
+        "propagations": 90,
+        "binary propagations": 90,
+        "final checks": 1,
+        "added eqs": 177,
+        "mk clause": 50,
+        "mk clause binary": 134,
+        "del clause": 50,
+        "num checks": 1,
+        "mk bool var": 270,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 58,
+        "pb predicates": 174,
+        "num allocs": 245105240,
+        "rlimit count": 345979,
+        "max memory": 26.14,
+        "memory": 17.46,
+        "time": 0.002
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          6
+        ],
+        "1": [
+          1,
+          5,
+          7
+        ],
+        "2": [
+          2,
+          6,
+          4
+        ],
+        "3": [
+          3,
+          7,
+          5
+        ],
+        "4": [
+          4,
+          0,
+          2
+        ],
+        "5": [
+          5,
+          1,
+          3
+        ],
+        "6": [
+          6,
+          2,
+          0,
+          1
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-rotate1-complement",
+      "dimension": 3,
+      "permutation": [
+        7,
+        5,
+        3,
+        1,
+        6,
+        4,
+        2,
+        0
+      ],
+      "total_hamming_distance": 12,
+      "directed_arc_count": 24,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.004044333007186651,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 32,
+        "propagations": 128,
+        "binary propagations": 128,
+        "final checks": 1,
+        "added eqs": 320,
+        "mk clause": 64,
+        "mk clause binary": 128,
+        "del clause": 64,
+        "num checks": 1,
+        "mk bool var": 536,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 160,
+        "pb predicates": 344,
+        "num allocs": 259463276,
+        "rlimit count": 373585,
+        "max memory": 26.14,
+        "memory": 17.49,
+        "time": 0.004
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          6,
+          4,
+          5,
+          7
+        ],
+        "1": [
+          1,
+          5
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          7,
+          5,
+          4,
+          0,
+          1
+        ],
+        "4": [
+          4,
+          6
+        ],
+        "5": [
+          5,
+          1,
+          3,
+          2,
+          0,
+          4
+        ],
+        "6": [
+          6,
+          2
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-rotate1-complement-shortest",
+      "dimension": 3,
+      "permutation": [
+        7,
+        5,
+        3,
+        1,
+        6,
+        4,
+        2,
+        0
+      ],
+      "total_hamming_distance": 12,
+      "directed_arc_count": 24,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0019917910103686154,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 4,
+        "propagations": 73,
+        "binary propagations": 73,
+        "final checks": 1,
+        "added eqs": 143,
+        "mk clause": 40,
+        "mk clause binary": 110,
+        "del clause": 40,
+        "num checks": 1,
+        "mk bool var": 234,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 35,
+        "pb predicates": 138,
+        "num allocs": 271554468,
+        "rlimit count": 391128,
+        "max memory": 26.14,
+        "memory": 17.45,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3,
+          7
+        ],
+        "1": [
+          1,
+          5
+        ],
+        "2": [
+          2,
+          3
+        ],
+        "3": [
+          3,
+          1
+        ],
+        "4": [
+          4,
+          6
+        ],
+        "5": [
+          5,
+          4
+        ],
+        "6": [
+          6,
+          2
+        ],
+        "7": [
+          7,
+          5,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q3-high-distance-random",
+      "dimension": 3,
+      "permutation": [
+        7,
+        1,
+        2,
+        0,
+        3,
+        5,
+        6,
+        4
+      ],
+      "total_hamming_distance": 10,
+      "directed_arc_count": 24,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.002434833033476025,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 25,
+        "propagations": 64,
+        "binary propagations": 64,
+        "final checks": 1,
+        "added eqs": 160,
+        "mk clause": 32,
+        "mk clause binary": 64,
+        "del clause": 32,
+        "num checks": 1,
+        "mk bool var": 280,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 71,
+        "pb predicates": 184,
+        "num allocs": 284695007,
+        "rlimit count": 405653,
+        "max memory": 26.14,
+        "memory": 17.44,
+        "time": 0.002
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          2,
+          0
+        ],
+        "4": [
+          4,
+          0,
+          1,
+          3
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "name": "q3-high-distance-random-shortest",
+      "dimension": 3,
+      "permutation": [
+        7,
+        1,
+        2,
+        0,
+        3,
+        5,
+        6,
+        4
+      ],
+      "total_hamming_distance": 10,
+      "directed_arc_count": 24,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.001149624993558973,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 9,
+        "propagations": 55,
+        "binary propagations": 55,
+        "final checks": 1,
+        "added eqs": 107,
+        "mk clause": 30,
+        "mk clause binary": 102,
+        "del clause": 30,
+        "num checks": 1,
+        "mk bool var": 139,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 32,
+        "pb predicates": 91,
+        "num allocs": 297585401,
+        "rlimit count": 415288,
+        "max memory": 26.14,
+        "memory": 17.38,
+        "time": 0.001
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3,
+          1,
+          0
+        ],
+        "4": [
+          4,
+          0,
+          1,
+          3
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "name": "q4-identity",
+      "dimension": 4,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 64,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 2.037500962615013e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 302795643,
+        "rlimit count": 415386,
+        "max memory": 26.14,
+        "memory": 17.37
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          4
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7
+        ],
+        "8": [
+          8
+        ],
+        "9": [
+          9
+        ],
+        "10": [
+          10
+        ],
+        "11": [
+          11
+        ],
+        "12": [
+          12
+        ],
+        "13": [
+          13
+        ],
+        "14": [
+          14
+        ],
+        "15": [
+          15
+        ]
+      }
+    },
+    {
+      "name": "q4-identity-shortest",
+      "dimension": 4,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "total_hamming_distance": 0,
+      "directed_arc_count": 64,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 2.0540959667414427e-05,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "num allocs": 308014568,
+        "rlimit count": 415388,
+        "max memory": 26.14,
+        "memory": 17.37
+      },
+      "paths": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          4
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7
+        ],
+        "8": [
+          8
+        ],
+        "9": [
+          9
+        ],
+        "10": [
+          10
+        ],
+        "11": [
+          11
+        ],
+        "12": [
+          12
+        ],
+        "13": [
+          13
+        ],
+        "14": [
+          14
+        ],
+        "15": [
+          15
+        ]
+      }
+    },
+    {
+      "name": "q4-antipodal",
+      "dimension": 4,
+      "permutation": [
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 64,
+      "directed_arc_count": 64,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.02157949999673292,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 206,
+        "propagations": 512,
+        "binary propagations": 512,
+        "final checks": 1,
+        "added eqs": 1536,
+        "mk clause": 256,
+        "mk clause binary": 512,
+        "del clause": 256,
+        "num checks": 1,
+        "mk bool var": 2368,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 818,
+        "pb predicates": 1344,
+        "num allocs": 367528386,
+        "rlimit count": 544177,
+        "max memory": 26.14,
+        "memory": 18.27,
+        "time": 0.021
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          12,
+          14,
+          15
+        ],
+        "1": [
+          1,
+          9,
+          13,
+          15,
+          14
+        ],
+        "2": [
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "3": [
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "4": [
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "5": [
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "6": [
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "8": [
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "9": [
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "10": [
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "11": [
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "14": [
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-antipodal-shortest",
+      "dimension": 4,
+      "permutation": [
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 64,
+      "directed_arc_count": 64,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.011957457987591624,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 40,
+        "propagations": 480,
+        "binary propagations": 480,
+        "final checks": 1,
+        "added eqs": 1024,
+        "mk clause": 256,
+        "mk clause binary": 704,
+        "del clause": 256,
+        "num checks": 1,
+        "mk bool var": 1472,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 472,
+        "pb predicates": 960,
+        "num allocs": 421665262,
+        "rlimit count": 626745,
+        "max memory": 26.14,
+        "memory": 18.15,
+        "time": 0.011
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          12,
+          14,
+          15
+        ],
+        "1": [
+          1,
+          9,
+          13,
+          15,
+          14
+        ],
+        "2": [
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "3": [
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "4": [
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "5": [
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "6": [
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "8": [
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "9": [
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "10": [
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "11": [
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "14": [
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-antipodal-swap-01",
+      "dimension": 4,
+      "permutation": [
+        14,
+        15,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 62,
+      "directed_arc_count": 64,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.020378542016260326,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 220,
+        "propagations": 512,
+        "binary propagations": 512,
+        "final checks": 1,
+        "added eqs": 1536,
+        "mk clause": 256,
+        "mk clause binary": 512,
+        "del clause": 256,
+        "num checks": 1,
+        "mk bool var": 2368,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 804,
+        "pb predicates": 1344,
+        "num allocs": 504699808,
+        "rlimit count": 756683,
+        "max memory": 26.14,
+        "memory": 18.33,
+        "time": 0.02
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          12,
+          14
+        ],
+        "1": [
+          1,
+          9,
+          13,
+          15
+        ],
+        "2": [
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "3": [
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "4": [
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "5": [
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "6": [
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "8": [
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "9": [
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "10": [
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "11": [
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "14": [
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-antipodal-swap-01-shortest",
+      "dimension": 4,
+      "permutation": [
+        14,
+        15,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 62,
+      "directed_arc_count": 64,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.010643084009643644,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 44,
+        "propagations": 465,
+        "binary propagations": 465,
+        "final checks": 1,
+        "added eqs": 986,
+        "mk clause": 248,
+        "mk clause binary": 679,
+        "del clause": 248,
+        "num checks": 1,
+        "mk bool var": 1447,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 442,
+        "pb predicates": 935,
+        "num allocs": 575849128,
+        "rlimit count": 841486,
+        "max memory": 26.14,
+        "memory": 18.24,
+        "time": 0.01
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          12,
+          14
+        ],
+        "1": [
+          1,
+          9,
+          13,
+          15
+        ],
+        "2": [
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "3": [
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "4": [
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "5": [
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "6": [
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "8": [
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "9": [
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "10": [
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "11": [
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "14": [
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-antipodal-disjoint-swaps",
+      "dimension": 4,
+      "permutation": [
+        14,
+        15,
+        12,
+        13,
+        10,
+        11,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 58,
+      "directed_arc_count": 64,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.01963729102862999,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 223,
+        "propagations": 512,
+        "binary propagations": 512,
+        "final checks": 1,
+        "added eqs": 1536,
+        "mk clause": 256,
+        "mk clause binary": 512,
+        "del clause": 256,
+        "num checks": 1,
+        "mk bool var": 2368,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 801,
+        "pb predicates": 1344,
+        "num allocs": 681608295,
+        "rlimit count": 971450,
+        "max memory": 26.14,
+        "memory": 18.34,
+        "time": 0.019
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          12,
+          14
+        ],
+        "1": [
+          1,
+          9,
+          13,
+          15
+        ],
+        "2": [
+          2,
+          10,
+          11,
+          15,
+          13,
+          12
+        ],
+        "3": [
+          3,
+          11,
+          10,
+          14,
+          12,
+          13
+        ],
+        "4": [
+          4,
+          12,
+          8,
+          10
+        ],
+        "5": [
+          5,
+          13,
+          9,
+          11
+        ],
+        "6": [
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "8": [
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "9": [
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "10": [
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "11": [
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "14": [
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-antipodal-disjoint-swaps-shortest",
+      "dimension": 4,
+      "permutation": [
+        14,
+        15,
+        12,
+        13,
+        10,
+        11,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 58,
+      "directed_arc_count": 64,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.010564083000645041,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 37,
+        "propagations": 443,
+        "binary propagations": 443,
+        "final checks": 1,
+        "added eqs": 940,
+        "mk clause": 236,
+        "mk clause binary": 647,
+        "del clause": 236,
+        "num checks": 1,
+        "mk bool var": 1409,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 409,
+        "pb predicates": 897,
+        "num allocs": 776924065,
+        "rlimit count": 1056500,
+        "max memory": 26.14,
+        "memory": 18.16,
+        "time": 0.01
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          12,
+          14
+        ],
+        "1": [
+          1,
+          9,
+          13,
+          15
+        ],
+        "2": [
+          2,
+          10,
+          14,
+          12
+        ],
+        "3": [
+          3,
+          11,
+          15,
+          13
+        ],
+        "4": [
+          4,
+          12,
+          8,
+          10
+        ],
+        "5": [
+          5,
+          13,
+          9,
+          11
+        ],
+        "6": [
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "8": [
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "9": [
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "10": [
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "11": [
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "14": [
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-rotate1-complement",
+      "dimension": 4,
+      "permutation": [
+        15,
+        13,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "total_hamming_distance": 32,
+      "directed_arc_count": 64,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.018460083985701203,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 2,
+        "decisions": 203,
+        "propagations": 448,
+        "binary propagations": 448,
+        "final checks": 1,
+        "added eqs": 1353,
+        "mk clause": 226,
+        "mk clause binary": 448,
+        "del clause": 224,
+        "num checks": 1,
+        "mk bool var": 2080,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb resolves": 1,
+        "pb conflicts": 1,
+        "pb propagations": 711,
+        "pb predicates": 1184,
+        "num allocs": 908312629,
+        "rlimit count": 1170784,
+        "max memory": 26.14,
+        "memory": 18.34,
+        "time": 0.018
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          10,
+          14,
+          12,
+          13,
+          15
+        ],
+        "1": [
+          1,
+          9,
+          13
+        ],
+        "2": [
+          2,
+          10,
+          11
+        ],
+        "3": [
+          3,
+          11,
+          15,
+          13,
+          12,
+          14,
+          10,
+          8,
+          9
+        ],
+        "4": [
+          4,
+          6,
+          7
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6,
+          4,
+          5,
+          13,
+          9,
+          11,
+          10,
+          2,
+          3
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          9,
+          1
+        ],
+        "8": [
+          8,
+          0,
+          1,
+          5,
+          7,
+          6,
+          14
+        ],
+        "9": [
+          9,
+          8,
+          12
+        ],
+        "10": [
+          10
+        ],
+        "11": [
+          11,
+          3,
+          7,
+          5,
+          4,
+          12,
+          8
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          2,
+          6
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          3,
+          2,
+          0,
+          4
+        ],
+        "14": [
+          14,
+          6,
+          2
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-rotate1-complement-shortest",
+      "dimension": 4,
+      "permutation": [
+        15,
+        13,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "total_hamming_distance": 32,
+      "directed_arc_count": 64,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.0098230000003241,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 14,
+        "propagations": 360,
+        "binary propagations": 360,
+        "final checks": 1,
+        "added eqs": 768,
+        "mk clause": 188,
+        "mk clause binary": 528,
+        "del clause": 188,
+        "num checks": 1,
+        "mk bool var": 1192,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 314,
+        "pb predicates": 744,
+        "num allocs": 1012085597,
+        "rlimit count": 1246047,
+        "max memory": 26.14,
+        "memory": 18.18,
+        "time": 0.009
+      },
+      "paths": {
+        "0": [
+          0,
+          1,
+          3,
+          7,
+          15
+        ],
+        "1": [
+          1,
+          5,
+          13
+        ],
+        "2": [
+          2,
+          10,
+          11
+        ],
+        "3": [
+          3,
+          11,
+          9
+        ],
+        "4": [
+          4,
+          5,
+          7
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6,
+          2,
+          3
+        ],
+        "7": [
+          7,
+          5,
+          1
+        ],
+        "8": [
+          8,
+          10,
+          14
+        ],
+        "9": [
+          9,
+          8,
+          12
+        ],
+        "10": [
+          10
+        ],
+        "11": [
+          11,
+          10,
+          8
+        ],
+        "12": [
+          12,
+          4,
+          6
+        ],
+        "13": [
+          13,
+          5,
+          4
+        ],
+        "14": [
+          14,
+          10,
+          2
+        ],
+        "15": [
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q4-high-distance-random",
+      "dimension": 4,
+      "permutation": [
+        7,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        1,
+        0,
+        5,
+        4,
+        3,
+        2,
+        15,
+        6
+      ],
+      "total_hamming_distance": 54,
+      "directed_arc_count": 64,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.032177333952859044,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 734,
+        "decisions": 2648,
+        "propagations": 1461,
+        "binary propagations": 512,
+        "restarts": 6,
+        "final checks": 1,
+        "added eqs": 102836,
+        "mk clause": 989,
+        "mk clause binary": 512,
+        "del clause": 256,
+        "minimized lits": 2569,
+        "num checks": 1,
+        "mk bool var": 2368,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb resolves": 241,
+        "pb conflicts": 245,
+        "pb propagations": 112586,
+        "pb predicates": 1344,
+        "num allocs": 1170207458,
+        "rlimit count": 1551221,
+        "max memory": 26.14,
+        "memory": 18.45,
+        "time": 0.032
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "1": [
+          1,
+          5,
+          13,
+          15,
+          14
+        ],
+        "2": [
+          2,
+          3,
+          11,
+          15,
+          13
+        ],
+        "3": [
+          3,
+          2,
+          6,
+          14,
+          12
+        ],
+        "4": [
+          4,
+          0,
+          8,
+          9,
+          11
+        ],
+        "5": [
+          5,
+          4,
+          6,
+          2,
+          10
+        ],
+        "6": [
+          6,
+          4,
+          12,
+          13,
+          9
+        ],
+        "7": [
+          7,
+          3,
+          1,
+          9,
+          8
+        ],
+        "8": [
+          8,
+          0,
+          1
+        ],
+        "9": [
+          9,
+          13,
+          5,
+          1,
+          0
+        ],
+        "10": [
+          10,
+          11,
+          3,
+          7,
+          5
+        ],
+        "11": [
+          11,
+          10,
+          8,
+          12,
+          4
+        ],
+        "12": [
+          12,
+          8,
+          10,
+          14,
+          15,
+          11,
+          9,
+          1,
+          3
+        ],
+        "13": [
+          13,
+          12,
+          14,
+          10,
+          2
+        ],
+        "14": [
+          14,
+          6,
+          7,
+          15
+        ],
+        "15": [
+          15,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "name": "q4-high-distance-random-shortest",
+      "dimension": 4,
+      "permutation": [
+        7,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        1,
+        0,
+        5,
+        4,
+        3,
+        2,
+        15,
+        6
+      ],
+      "total_hamming_distance": 54,
+      "directed_arc_count": 64,
+      "shortest_only": true,
+      "status": "sat",
+      "elapsed_seconds": 0.010553625004831702,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 41,
+        "propagations": 452,
+        "binary propagations": 452,
+        "final checks": 1,
+        "added eqs": 956,
+        "mk clause": 239,
+        "mk clause binary": 660,
+        "del clause": 239,
+        "num checks": 1,
+        "mk bool var": 1422,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 408,
+        "pb predicates": 910,
+        "num allocs": 1301780611,
+        "rlimit count": 1636366,
+        "max memory": 26.14,
+        "memory": 18.27,
+        "time": 0.01
+      },
+      "paths": {
+        "0": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "1": [
+          1,
+          9,
+          13,
+          15,
+          14
+        ],
+        "2": [
+          2,
+          0,
+          8,
+          12,
+          13
+        ],
+        "3": [
+          3,
+          7,
+          15,
+          13,
+          12
+        ],
+        "4": [
+          4,
+          6,
+          2,
+          10,
+          11
+        ],
+        "5": [
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "6": [
+          6,
+          7,
+          3,
+          11,
+          9
+        ],
+        "7": [
+          7,
+          5,
+          4,
+          12,
+          8
+        ],
+        "8": [
+          8,
+          9,
+          1
+        ],
+        "9": [
+          9,
+          8,
+          0
+        ],
+        "10": [
+          10,
+          2,
+          3,
+          1,
+          5
+        ],
+        "11": [
+          11,
+          3,
+          2,
+          6,
+          4
+        ],
+        "12": [
+          12,
+          4,
+          0,
+          1,
+          3
+        ],
+        "13": [
+          13,
+          5,
+          1,
+          0,
+          2
+        ],
+        "14": [
+          14,
+          15
+        ],
+        "15": [
+          15,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "name": "q5-antipodal",
+      "dimension": 5,
+      "permutation": [
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 160,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.09309245797339827,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 1,
+        "decisions": 1404,
+        "propagations": 2048,
+        "binary propagations": 2048,
+        "final checks": 1,
+        "added eqs": 7375,
+        "mk clause": 1025,
+        "mk clause binary": 2048,
+        "del clause": 1024,
+        "num checks": 1,
+        "mk bool var": 10400,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb propagations": 3963,
+        "pb predicates": 5280,
+        "num allocs": 2070320981,
+        "rlimit count": 2233463,
+        "max memory": 29.31,
+        "memory": 21.84,
+        "time": 0.093
+      },
+      "paths": {
+        "0": [
+          0,
+          16,
+          24,
+          28,
+          30,
+          31
+        ],
+        "1": [
+          1,
+          17,
+          25,
+          29,
+          31,
+          30
+        ],
+        "2": [
+          2,
+          18,
+          26,
+          30,
+          28,
+          29
+        ],
+        "3": [
+          3,
+          19,
+          27,
+          31,
+          29,
+          28
+        ],
+        "4": [
+          4,
+          20,
+          28,
+          24,
+          26,
+          27
+        ],
+        "5": [
+          5,
+          21,
+          29,
+          25,
+          27,
+          26
+        ],
+        "6": [
+          6,
+          22,
+          30,
+          26,
+          24,
+          25
+        ],
+        "7": [
+          7,
+          23,
+          31,
+          27,
+          25,
+          24
+        ],
+        "8": [
+          8,
+          24,
+          16,
+          20,
+          22,
+          23
+        ],
+        "9": [
+          9,
+          25,
+          17,
+          21,
+          23,
+          22
+        ],
+        "10": [
+          10,
+          26,
+          18,
+          22,
+          20,
+          21
+        ],
+        "11": [
+          11,
+          27,
+          19,
+          23,
+          21,
+          20
+        ],
+        "12": [
+          12,
+          28,
+          20,
+          16,
+          18,
+          19
+        ],
+        "13": [
+          13,
+          29,
+          21,
+          17,
+          19,
+          18
+        ],
+        "14": [
+          14,
+          15,
+          31,
+          23,
+          19,
+          17
+        ],
+        "15": [
+          15,
+          14,
+          30,
+          22,
+          18,
+          16
+        ],
+        "16": [
+          16,
+          17,
+          1,
+          9,
+          13,
+          15
+        ],
+        "17": [
+          17,
+          16,
+          0,
+          8,
+          12,
+          14
+        ],
+        "18": [
+          18,
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "19": [
+          19,
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "20": [
+          20,
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "21": [
+          21,
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "22": [
+          22,
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "23": [
+          23,
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "24": [
+          24,
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "25": [
+          25,
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "26": [
+          26,
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "27": [
+          27,
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "28": [
+          28,
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "29": [
+          29,
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "30": [
+          30,
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "31": [
+          31,
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q5-antipodal-swap-01",
+      "dimension": 5,
+      "permutation": [
+        30,
+        31,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 158,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.09639787499327213,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 1440,
+        "propagations": 2048,
+        "binary propagations": 2048,
+        "final checks": 1,
+        "added eqs": 7168,
+        "mk clause": 1024,
+        "mk clause binary": 2048,
+        "del clause": 1024,
+        "num checks": 1,
+        "mk bool var": 10400,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 3680,
+        "pb predicates": 5280,
+        "num allocs": 3071547493,
+        "rlimit count": 2839743,
+        "max memory": 29.53,
+        "memory": 22.0,
+        "time": 0.096
+      },
+      "paths": {
+        "0": [
+          0,
+          16,
+          24,
+          28,
+          30
+        ],
+        "1": [
+          1,
+          17,
+          25,
+          29,
+          31
+        ],
+        "2": [
+          2,
+          18,
+          26,
+          30,
+          28,
+          29
+        ],
+        "3": [
+          3,
+          19,
+          27,
+          31,
+          29,
+          28
+        ],
+        "4": [
+          4,
+          20,
+          28,
+          24,
+          26,
+          27
+        ],
+        "5": [
+          5,
+          21,
+          29,
+          25,
+          27,
+          26
+        ],
+        "6": [
+          6,
+          22,
+          30,
+          26,
+          24,
+          25
+        ],
+        "7": [
+          7,
+          23,
+          31,
+          27,
+          25,
+          24
+        ],
+        "8": [
+          8,
+          24,
+          16,
+          20,
+          22,
+          23
+        ],
+        "9": [
+          9,
+          25,
+          17,
+          21,
+          23,
+          22
+        ],
+        "10": [
+          10,
+          26,
+          18,
+          22,
+          20,
+          21
+        ],
+        "11": [
+          11,
+          27,
+          19,
+          23,
+          21,
+          20
+        ],
+        "12": [
+          12,
+          28,
+          20,
+          16,
+          18,
+          19
+        ],
+        "13": [
+          13,
+          29,
+          21,
+          17,
+          19,
+          18
+        ],
+        "14": [
+          14,
+          30,
+          22,
+          18,
+          16,
+          17
+        ],
+        "15": [
+          15,
+          31,
+          23,
+          19,
+          17,
+          16
+        ],
+        "16": [
+          16,
+          0,
+          8,
+          12,
+          14,
+          15
+        ],
+        "17": [
+          17,
+          1,
+          9,
+          13,
+          15,
+          14
+        ],
+        "18": [
+          18,
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "19": [
+          19,
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "20": [
+          20,
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "21": [
+          21,
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "22": [
+          22,
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "23": [
+          23,
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "24": [
+          24,
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "25": [
+          25,
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "26": [
+          26,
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "27": [
+          27,
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "28": [
+          28,
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "29": [
+          29,
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "30": [
+          30,
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "31": [
+          31,
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q5-antipodal-4cycle",
+      "dimension": 5,
+      "permutation": [
+        30,
+        29,
+        28,
+        31,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 154,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.10381979198427871,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 1414,
+        "propagations": 2048,
+        "binary propagations": 2048,
+        "final checks": 1,
+        "added eqs": 7168,
+        "mk clause": 1024,
+        "mk clause binary": 2048,
+        "del clause": 1024,
+        "num checks": 1,
+        "mk bool var": 10400,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 3706,
+        "pb predicates": 5280,
+        "rlimit count": 3445833,
+        "max memory": 29.53,
+        "memory": 22.0,
+        "num allocs": 4340506417.0,
+        "time": 0.103
+      },
+      "paths": {
+        "0": [
+          0,
+          16,
+          24,
+          28,
+          30
+        ],
+        "1": [
+          1,
+          17,
+          25,
+          29
+        ],
+        "2": [
+          2,
+          18,
+          26,
+          30,
+          28
+        ],
+        "3": [
+          3,
+          19,
+          27,
+          31
+        ],
+        "4": [
+          4,
+          20,
+          28,
+          24,
+          26,
+          27
+        ],
+        "5": [
+          5,
+          21,
+          29,
+          25,
+          27,
+          26
+        ],
+        "6": [
+          6,
+          22,
+          30,
+          26,
+          24,
+          25
+        ],
+        "7": [
+          7,
+          23,
+          31,
+          27,
+          25,
+          24
+        ],
+        "8": [
+          8,
+          24,
+          16,
+          20,
+          22,
+          23
+        ],
+        "9": [
+          9,
+          25,
+          17,
+          21,
+          23,
+          22
+        ],
+        "10": [
+          10,
+          26,
+          18,
+          22,
+          20,
+          21
+        ],
+        "11": [
+          11,
+          27,
+          19,
+          23,
+          21,
+          20
+        ],
+        "12": [
+          12,
+          28,
+          20,
+          16,
+          18,
+          19
+        ],
+        "13": [
+          13,
+          29,
+          21,
+          17,
+          19,
+          18
+        ],
+        "14": [
+          14,
+          30,
+          22,
+          18,
+          16,
+          17
+        ],
+        "15": [
+          15,
+          31,
+          23,
+          19,
+          17,
+          16
+        ],
+        "16": [
+          16,
+          0,
+          8,
+          12,
+          14,
+          15
+        ],
+        "17": [
+          17,
+          1,
+          9,
+          13,
+          15,
+          14
+        ],
+        "18": [
+          18,
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "19": [
+          19,
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "20": [
+          20,
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "21": [
+          21,
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "22": [
+          22,
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "23": [
+          23,
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "24": [
+          24,
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "25": [
+          25,
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "26": [
+          26,
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "27": [
+          27,
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "28": [
+          28,
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "29": [
+          29,
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "30": [
+          30,
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "31": [
+          31,
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q5-antipodal-disjoint-swaps",
+      "dimension": 5,
+      "permutation": [
+        30,
+        31,
+        28,
+        29,
+        26,
+        27,
+        25,
+        24,
+        22,
+        23,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        14,
+        15,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "total_hamming_distance": 150,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.0920350420055911,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "decisions": 1477,
+        "propagations": 2048,
+        "binary propagations": 2048,
+        "final checks": 1,
+        "added eqs": 7168,
+        "mk clause": 1024,
+        "mk clause binary": 2048,
+        "del clause": 1024,
+        "num checks": 1,
+        "mk bool var": 10400,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb propagations": 3643,
+        "pb predicates": 5280,
+        "rlimit count": 4052462,
+        "max memory": 29.53,
+        "memory": 22.0,
+        "num allocs": 5864449360.0,
+        "time": 0.091
+      },
+      "paths": {
+        "0": [
+          0,
+          16,
+          24,
+          28,
+          30
+        ],
+        "1": [
+          1,
+          17,
+          25,
+          29,
+          31
+        ],
+        "2": [
+          2,
+          18,
+          26,
+          27,
+          31,
+          29,
+          28
+        ],
+        "3": [
+          3,
+          19,
+          27,
+          26,
+          30,
+          28,
+          29
+        ],
+        "4": [
+          4,
+          20,
+          21,
+          29,
+          25,
+          24,
+          26
+        ],
+        "5": [
+          5,
+          21,
+          20,
+          28,
+          24,
+          25,
+          27
+        ],
+        "6": [
+          6,
+          22,
+          23,
+          31,
+          27,
+          25
+        ],
+        "7": [
+          7,
+          23,
+          22,
+          30,
+          26,
+          24
+        ],
+        "8": [
+          8,
+          24,
+          16,
+          20,
+          22
+        ],
+        "9": [
+          9,
+          25,
+          17,
+          21,
+          23
+        ],
+        "10": [
+          10,
+          26,
+          18,
+          19,
+          23,
+          21
+        ],
+        "11": [
+          11,
+          27,
+          19,
+          18,
+          22,
+          20
+        ],
+        "12": [
+          12,
+          28,
+          20,
+          16,
+          17,
+          19
+        ],
+        "13": [
+          13,
+          29,
+          21,
+          17,
+          16,
+          18
+        ],
+        "14": [
+          14,
+          15,
+          31,
+          23,
+          19,
+          17
+        ],
+        "15": [
+          15,
+          14,
+          30,
+          22,
+          18,
+          16
+        ],
+        "16": [
+          16,
+          0,
+          8,
+          12,
+          14
+        ],
+        "17": [
+          17,
+          1,
+          9,
+          13,
+          15
+        ],
+        "18": [
+          18,
+          2,
+          10,
+          14,
+          12,
+          13
+        ],
+        "19": [
+          19,
+          3,
+          11,
+          15,
+          13,
+          12
+        ],
+        "20": [
+          20,
+          4,
+          12,
+          8,
+          10,
+          11
+        ],
+        "21": [
+          21,
+          5,
+          13,
+          9,
+          11,
+          10
+        ],
+        "22": [
+          22,
+          6,
+          14,
+          10,
+          8,
+          9
+        ],
+        "23": [
+          23,
+          7,
+          15,
+          11,
+          9,
+          8
+        ],
+        "24": [
+          24,
+          8,
+          0,
+          4,
+          6,
+          7
+        ],
+        "25": [
+          25,
+          9,
+          1,
+          5,
+          7,
+          6
+        ],
+        "26": [
+          26,
+          10,
+          2,
+          6,
+          4,
+          5
+        ],
+        "27": [
+          27,
+          11,
+          3,
+          7,
+          5,
+          4
+        ],
+        "28": [
+          28,
+          12,
+          4,
+          0,
+          2,
+          3
+        ],
+        "29": [
+          29,
+          13,
+          5,
+          1,
+          3,
+          2
+        ],
+        "30": [
+          30,
+          14,
+          6,
+          2,
+          0,
+          1
+        ],
+        "31": [
+          31,
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q5-rotate1-complement",
+      "dimension": 5,
+      "permutation": [
+        31,
+        29,
+        27,
+        25,
+        23,
+        21,
+        19,
+        17,
+        15,
+        13,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "total_hamming_distance": 80,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.09373641601996496,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 22,
+        "decisions": 2198,
+        "propagations": 2050,
+        "binary propagations": 2048,
+        "final checks": 1,
+        "added eqs": 12975,
+        "mk clause": 1046,
+        "mk clause binary": 2048,
+        "del clause": 1024,
+        "minimized lits": 2,
+        "num checks": 1,
+        "mk bool var": 10400,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb resolves": 2,
+        "pb conflicts": 2,
+        "pb propagations": 9259,
+        "pb predicates": 5280,
+        "rlimit count": 4676201,
+        "max memory": 29.53,
+        "memory": 22.0,
+        "num allocs": 7643532251.0,
+        "time": 0.093
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          9,
+          25,
+          27,
+          31
+        ],
+        "1": [
+          1,
+          17,
+          25,
+          29
+        ],
+        "2": [
+          2,
+          3,
+          11,
+          27
+        ],
+        "3": [
+          3,
+          19,
+          27,
+          25
+        ],
+        "4": [
+          4,
+          20,
+          21,
+          23
+        ],
+        "5": [
+          5,
+          21
+        ],
+        "6": [
+          6,
+          22,
+          23,
+          31,
+          27,
+          19
+        ],
+        "7": [
+          7,
+          23,
+          19,
+          17
+        ],
+        "8": [
+          8,
+          10,
+          14,
+          15
+        ],
+        "9": [
+          9,
+          13
+        ],
+        "10": [
+          10,
+          26,
+          24,
+          25,
+          17,
+          1,
+          9,
+          11
+        ],
+        "11": [
+          11,
+          15,
+          13,
+          9
+        ],
+        "12": [
+          12,
+          28,
+          20,
+          4,
+          5,
+          7
+        ],
+        "13": [
+          13,
+          29,
+          21,
+          5
+        ],
+        "14": [
+          14,
+          30,
+          22,
+          20,
+          28,
+          24,
+          26,
+          18,
+          19,
+          3
+        ],
+        "15": [
+          15,
+          31,
+          23,
+          21,
+          20,
+          22,
+          18,
+          2,
+          10,
+          11,
+          9,
+          1
+        ],
+        "16": [
+          16,
+          17,
+          19,
+          23,
+          22,
+          30
+        ],
+        "17": [
+          17,
+          21,
+          29,
+          31,
+          30,
+          28
+        ],
+        "18": [
+          18,
+          26
+        ],
+        "19": [
+          19,
+          18,
+          16,
+          24
+        ],
+        "20": [
+          20,
+          16,
+          18,
+          22
+        ],
+        "21": [
+          21,
+          17,
+          16,
+          20
+        ],
+        "22": [
+          22,
+          6,
+          7,
+          15,
+          14,
+          10,
+          2,
+          18
+        ],
+        "23": [
+          23,
+          7,
+          5,
+          13,
+          15,
+          11,
+          10,
+          8,
+          24,
+          16
+        ],
+        "24": [
+          24,
+          8,
+          0,
+          1,
+          5,
+          4,
+          6,
+          14
+        ],
+        "25": [
+          25,
+          9,
+          8,
+          12
+        ],
+        "26": [
+          26,
+          10
+        ],
+        "27": [
+          27,
+          11,
+          3,
+          7,
+          6,
+          4,
+          12,
+          8
+        ],
+        "28": [
+          28,
+          12,
+          4,
+          0,
+          2,
+          6
+        ],
+        "29": [
+          29,
+          13,
+          5,
+          1,
+          3,
+          2,
+          0,
+          4
+        ],
+        "30": [
+          30,
+          14,
+          6,
+          2
+        ],
+        "31": [
+          31,
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q5-rotate2-complement",
+      "dimension": 5,
+      "permutation": [
+        31,
+        27,
+        23,
+        19,
+        15,
+        11,
+        7,
+        3,
+        30,
+        26,
+        22,
+        18,
+        14,
+        10,
+        6,
+        2,
+        29,
+        25,
+        21,
+        17,
+        13,
+        9,
+        5,
+        1,
+        28,
+        24,
+        20,
+        16,
+        12,
+        8,
+        4,
+        0
+      ],
+      "total_hamming_distance": 80,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 0.09488175000296906,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 89,
+        "decisions": 1735,
+        "propagations": 2122,
+        "binary propagations": 2048,
+        "final checks": 1,
+        "added eqs": 28991,
+        "mk clause": 1113,
+        "mk clause binary": 2048,
+        "del clause": 1024,
+        "minimized lits": 113,
+        "num checks": 1,
+        "mk bool var": 10400,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb resolves": 43,
+        "pb conflicts": 43,
+        "pb propagations": 27365,
+        "pb predicates": 5280,
+        "rlimit count": 5320703,
+        "max memory": 29.55,
+        "memory": 22.0,
+        "num allocs": 9685180843.0,
+        "time": 0.094
+      },
+      "paths": {
+        "0": [
+          0,
+          2,
+          10,
+          11,
+          27,
+          26,
+          30,
+          31
+        ],
+        "1": [
+          1,
+          17,
+          19,
+          23,
+          22,
+          30,
+          26,
+          27
+        ],
+        "2": [
+          2,
+          18,
+          26,
+          24,
+          28,
+          20,
+          4,
+          5,
+          7,
+          23
+        ],
+        "3": [
+          3,
+          19
+        ],
+        "4": [
+          4,
+          12,
+          14,
+          15
+        ],
+        "5": [
+          5,
+          21,
+          20,
+          28,
+          29,
+          31,
+          27,
+          19,
+          3,
+          11
+        ],
+        "6": [
+          6,
+          7
+        ],
+        "7": [
+          7,
+          15,
+          11,
+          3
+        ],
+        "8": [
+          8,
+          9,
+          25,
+          29,
+          28,
+          30
+        ],
+        "9": [
+          9,
+          13,
+          29,
+          25,
+          24,
+          26
+        ],
+        "10": [
+          10,
+          26,
+          18,
+          22
+        ],
+        "11": [
+          11,
+          15,
+          13,
+          12,
+          4,
+          6,
+          22,
+          20,
+          16,
+          18
+        ],
+        "12": [
+          12,
+          8,
+          10,
+          14
+        ],
+        "13": [
+          13,
+          15,
+          14,
+          10
+        ],
+        "14": [
+          14,
+          30,
+          22,
+          6
+        ],
+        "15": [
+          15,
+          31,
+          23,
+          19,
+          18,
+          2
+        ],
+        "16": [
+          16,
+          20,
+          21,
+          29
+        ],
+        "17": [
+          17,
+          16,
+          24,
+          25
+        ],
+        "18": [
+          18,
+          16,
+          17,
+          25,
+          27,
+          31,
+          29,
+          21
+        ],
+        "19": [
+          19,
+          27,
+          25,
+          17
+        ],
+        "20": [
+          20,
+          22,
+          23,
+          21,
+          17,
+          1,
+          5,
+          13
+        ],
+        "21": [
+          21,
+          23,
+          31,
+          30,
+          28,
+          24,
+          16,
+          0,
+          1,
+          9
+        ],
+        "22": [
+          22,
+          18,
+          19,
+          17,
+          21,
+          5
+        ],
+        "23": [
+          23,
+          7,
+          6,
+          14,
+          12,
+          13,
+          9,
+          1
+        ],
+        "24": [
+          24,
+          8,
+          12,
+          28
+        ],
+        "25": [
+          25,
+          9,
+          11,
+          10,
+          8,
+          24
+        ],
+        "26": [
+          26,
+          10,
+          2,
+          3,
+          7,
+          5,
+          4,
+          20
+        ],
+        "27": [
+          27,
+          11,
+          9,
+          8,
+          0,
+          16
+        ],
+        "28": [
+          28,
+          12
+        ],
+        "29": [
+          29,
+          13,
+          5,
+          1,
+          3,
+          2,
+          6,
+          4,
+          0,
+          8
+        ],
+        "30": [
+          30,
+          14,
+          6,
+          2,
+          0,
+          4
+        ],
+        "31": [
+          31,
+          15,
+          7,
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "q5-high-distance-random-a",
+      "dimension": 5,
+      "permutation": [
+        31,
+        30,
+        29,
+        28,
+        27,
+        12,
+        25,
+        21,
+        4,
+        22,
+        15,
+        20,
+        19,
+        18,
+        17,
+        16,
+        13,
+        14,
+        1,
+        26,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        24,
+        3,
+        2,
+        23,
+        0
+      ],
+      "total_hamming_distance": 136,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "unknown",
+      "elapsed_seconds": 20.009765000024345,
+      "reason_unknown": "timeout",
+      "solver_statistics": {
+        "conflicts": 623866,
+        "decisions": 1917088,
+        "propagations": 5178592,
+        "binary propagations": 2048,
+        "restarts": 982,
+        "added eqs": 155230181,
+        "mk clause": 626860,
+        "mk clause binary": 2048,
+        "del clause": 606707,
+        "minimized lits": 4690637,
+        "num checks": 1,
+        "mk bool var": 10400,
+        "arith-make-feasible": 1,
+        "arith-max-columns": 4,
+        "pb resolves": 173690,
+        "pb conflicts": 175953,
+        "pb propagations": 165800852,
+        "pb predicates": 5280,
+        "rlimit count": 266981403,
+        "max memory": 42.26,
+        "memory": 22.85,
+        "num allocs": 32455242816.0,
+        "time": 20.009
+      },
+      "paths": null
+    },
+    {
+      "name": "q5-high-distance-random-b",
+      "dimension": 5,
+      "permutation": [
+        31,
+        8,
+        21,
+        15,
+        4,
+        9,
+        25,
+        24,
+        23,
+        2,
+        5,
+        20,
+        19,
+        18,
+        17,
+        16,
+        26,
+        14,
+        13,
+        7,
+        11,
+        10,
+        1,
+        30,
+        12,
+        6,
+        27,
+        29,
+        3,
+        22,
+        28,
+        0
+      ],
+      "total_hamming_distance": 116,
+      "directed_arc_count": 160,
+      "shortest_only": false,
+      "status": "sat",
+      "elapsed_seconds": 11.121888874971773,
+      "reason_unknown": null,
+      "solver_statistics": {
+        "conflicts": 352668,
+        "decisions": 1300925,
+        "propagations": 1936130,
+        "binary propagations": 1984,
+        "restarts": 740,
+        "final checks": 1,
+        "added eqs": 87287334,
+        "mk clause": 354621,
+        "mk clause binary": 1984,
+        "del clause": 341161,
+        "minimized lits": 2242162,
+        "num checks": 1,
+        "mk bool var": 10080,
+        "arith-make-feasible": 2,
+        "arith-max-columns": 4,
+        "pb resolves": 99729,
+        "pb conflicts": 100965,
+        "pb propagations": 93713821,
+        "pb predicates": 5120,
+        "rlimit count": 416035849,
+        "max memory": 42.26,
+        "memory": 23.42,
+        "num allocs": 46305858262.0,
+        "time": 11.121
+      },
+      "paths": {
+        "0": [
+          0,
+          8,
+          10,
+          11,
+          27,
+          31
+        ],
+        "1": [
+          1,
+          9,
+          8
+        ],
+        "2": [
+          2,
+          10,
+          8,
+          0,
+          1,
+          17,
+          21
+        ],
+        "3": [
+          3,
+          11,
+          15
+        ],
+        "4": [
+          4
+        ],
+        "5": [
+          5,
+          21,
+          29,
+          31,
+          27,
+          19,
+          17,
+          16,
+          20,
+          28,
+          12,
+          8,
+          9
+        ],
+        "6": [
+          6,
+          4,
+          12,
+          28,
+          24,
+          25
+        ],
+        "7": [
+          7,
+          15,
+          14,
+          10,
+          26,
+          24
+        ],
+        "8": [
+          8,
+          24,
+          16,
+          17,
+          19,
+          23
+        ],
+        "9": [
+          9,
+          1,
+          3,
+          2
+        ],
+        "10": [
+          10,
+          2,
+          6,
+          7,
+          5
+        ],
+        "11": [
+          11,
+          10,
+          14,
+          12,
+          4,
+          20
+        ],
+        "12": [
+          12,
+          13,
+          15,
+          31,
+          29,
+          28,
+          30,
+          26,
+          18,
+          19
+        ],
+        "13": [
+          13,
+          12,
+          14,
+          6,
+          22,
+          23,
+          19,
+          18
+        ],
+        "14": [
+          14,
+          30,
+          22,
+          20,
+          21,
+          17
+        ],
+        "15": [
+          15,
+          13,
+          5,
+          4,
+          0,
+          16
+        ],
+        "16": [
+          16,
+          0,
+          2,
+          3,
+          19,
+          27,
+          25,
+          24,
+          26
+        ],
+        "17": [
+          17,
+          1,
+          5,
+          13,
+          9,
+          25,
+          27,
+          26,
+          30,
+          14
+        ],
+        "18": [
+          18,
+          16,
+          24,
+          28,
+          29,
+          13
+        ],
+        "19": [
+          19,
+          3,
+          7
+        ],
+        "20": [
+          20,
+          16,
+          18,
+          22,
+          30,
+          31,
+          15,
+          11
+        ],
+        "21": [
+          21,
+          20,
+          22,
+          18,
+          26,
+          10
+        ],
+        "22": [
+          22,
+          6,
+          14,
+          15,
+          7,
+          23,
+          21,
+          5,
+          1
+        ],
+        "23": [
+          23,
+          31,
+          30
+        ],
+        "24": [
+          24,
+          8,
+          12
+        ],
+        "25": [
+          25,
+          9,
+          11,
+          3,
+          1,
+          0,
+          4,
+          6
+        ],
+        "26": [
+          26,
+          27
+        ],
+        "27": [
+          27,
+          11,
+          9,
+          13,
+          29
+        ],
+        "28": [
+          28,
+          20,
+          4,
+          5,
+          7,
+          3
+        ],
+        "29": [
+          29,
+          21,
+          23,
+          22
+        ],
+        "30": [
+          30,
+          28
+        ],
+        "31": [
+          31,
+          23,
+          7,
+          6,
+          2,
+          0
+        ]
+      }
+    }
+  ]
+}

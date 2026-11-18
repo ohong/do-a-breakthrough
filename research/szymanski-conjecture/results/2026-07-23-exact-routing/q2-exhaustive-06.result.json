@@ -1,0 +1,53 @@
+{
+  "name": "q2-exhaustive-06",
+  "dimension": 2,
+  "permutation": [
+    1,
+    0,
+    2,
+    3
+  ],
+  "total_hamming_distance": 2,
+  "directed_arc_count": 8,
+  "shortest_only": false,
+  "status": "sat",
+  "elapsed_seconds": 0.0017793329898267984,
+  "reason_unknown": null,
+  "solver_statistics": {
+    "solve-eqs-steps": 12,
+    "solve-eqs-elim-vars": 12,
+    "sat mk clause 2ary": 155,
+    "sat mk clause nary": 53,
+    "sat mk var": 56,
+    "sat del clause": 3,
+    "sat conflicts": 2,
+    "sat decisions": 10,
+    "sat propagations 2ary": 68,
+    "sat propagations nary": 15,
+    "sat units": 2,
+    "sat backjumps": 2,
+    "sat elim clauses": 2,
+    "sat elim literals": 1,
+    "num allocs": 13225030,
+    "rlimit count": 52003,
+    "max memory": 26.1,
+    "memory": 17.87,
+    "time": 0.001
+  },
+  "paths": {
+    "0": [
+      0,
+      1
+    ],
+    "1": [
+      1,
+      0
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ]
+  }
+}

@@ -12,12 +12,14 @@ asking it to “do a breakthrough” and find a structured counterexample. When 
 model stalled, he kept pushing for a complete, unconditional result.
 
 He pointed a strong model at a specific open problem, gave it time, and refused
-to accept partial progress. We may be underusing the models we already pay for.
+to call partial progress a solution. We may be underusing the models we already
+pay for.
 
 `do-a-breakthrough` turns that method into a reusable agent skill. It helps
-anyone choose a tractable open problem, define what would count as a complete
-proof or disproof, keep several research routes alive, attack weak lemmas, and
-audit any candidate result before calling it a breakthrough.
+anyone choose a worthwhile, tractable open problem, define the exact solution
+contract, calibrate known cases, pursue proof or counterexample routes, quarantine
+unaudited claims, and return either an independently checked result or an honest
+blocked handoff.
 
 You do not need a mathematical background. Install the skill, name a problem or
 an area that interests you, and let your ChatGPT, Claude, or coding agent work
