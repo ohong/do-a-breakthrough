@@ -35,4 +35,3 @@ Then pursue the two best routes far enough to produce mathematics, not a status
 report. Record unsupported steps explicitly. Do not call a reduction,
 numerical evidence, shortest-path counterexample, non-permutation request, or
 conditional result a solution.
-

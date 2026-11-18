@@ -41,4 +41,3 @@ Primary sources:
   https://doi.org/10.4230/LIPIcs.SoCG.2026.107
 - Garamvölgyi et al., 2025:
   https://doi.org/10.4230/LIPIcs.ICALP.2025.85
-

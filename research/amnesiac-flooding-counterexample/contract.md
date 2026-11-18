@@ -120,4 +120,3 @@ Novelty:
 - floating timing conventions that have not reproduced a published example;
 - a search log without an explicit witness and transition certificate;
 - a novelty claim based only on search-engine silence.
-

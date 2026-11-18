@@ -64,4 +64,3 @@ The subsequent equivalence-class counting argument, beginning with equation
 The state table and the failed-transitivity calculation have been independently
 reproduced twice. This is still a proposed correction to a peer-reviewed
 theorem and needs review by the authors or another expert before public claims.
-

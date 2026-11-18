@@ -262,4 +262,3 @@ normal forms.
 6. Run the safe merge test M9 on every parallel pair.
 7. Prefer rational weights with strict local slack, but do not impose a small
    denominator as a theorem.
-

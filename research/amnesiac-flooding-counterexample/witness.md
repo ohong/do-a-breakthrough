@@ -61,4 +61,3 @@ from round 5 through round 9 therefore repeats forever, proving nontermination.
 
 No inference relies on message identities or multiplicities. At most one copy
 of a given directed edge-message is launched in any round.
-

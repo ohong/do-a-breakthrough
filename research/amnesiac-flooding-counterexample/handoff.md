@@ -37,4 +37,3 @@ No claim is made about:
 - variable or adversarial delays;
 - multiple distinct messages;
 - a replacement positive characterization of terminating instances.
-

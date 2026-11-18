@@ -2,8 +2,8 @@
 
 Status: **bounded computation audited; no counterexample**
 
-Date: 2026-07-23  
-Primary run: Z3 4.15.4, Python API  
+Date: 2026-07-23
+Primary run: Z3 4.15.4, Python API
 Primary artifacts: `../results/2026-07-23-exact-routing/`
 
 ## Exact formulation
